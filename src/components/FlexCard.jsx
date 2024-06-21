@@ -1,6 +1,6 @@
 import React from "react";
 import FlexNav from "../components/Flex";
-import Sl1 from "../assets/images/Sl1.png";
+import Slide1 from "../assets/images/Sl1.png";
 import Sl2 from "../assets/images/Sl2.png";
 import Sl3 from "../assets/images/Sl3.png";
 
@@ -8,7 +8,7 @@ function Flexcards() {
   const flexcard1 = [
     {
       link: "/Investment",
-      image: Sl1,
+      image: Slide1,
       text: "Direct Investing  ",
     },
     {
