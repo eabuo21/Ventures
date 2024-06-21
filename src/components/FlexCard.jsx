@@ -1,8 +1,8 @@
 import React from "react";
 import FlexNav from "../components/Flex";
-import Slide1 from "../assets/images/Sl1.png";
-import Sl2 from "../assets/images/Sl2.png";
-import Sl3 from "../assets/images/Sl3.png";
+import Slide1 from "../assets/images/SlidesImages/sl1.png";
+import Sl2 from "../assets/images/SlidesImages/Sl2.png";
+import Sl3 from "../assets/images/SlidesImages/Sl3.png";
 
 function Flexcards() {
   const flexcard1 = [
