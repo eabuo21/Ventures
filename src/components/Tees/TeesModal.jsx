@@ -41,10 +41,12 @@ const TeesModal = ({ onClose }) => {
         </div>
         <button
           onClick={() => openForm()}
-          className="register-button   bg-red p-3 text-white font-bold flex justify-center items-center tex-center  w-[200px]  h-[70px]   md:h-[40px] md:w-[120px]  hover:bg-dark hover:transition-all hover:ease-in-out hover:duration-1000 
+          className="hover-effect  bg-red p-3 text-white font-bold flex justify-center items-center tex-center  w-[200px]  h-[70px]   md:h-[40px] md:w-[120px]   hover:transition-all hover:ease-in-out hover:duration-1000 
             ease-in-out transition-all duration-1000  hover:text-white "
         >
+            <p className="image-wrapper">
           Register
+          </p>
         </button>
         
         {showform && <TeesAppForm onClose={() => closeForm((onClose))} />}

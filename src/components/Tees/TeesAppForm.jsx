@@ -106,11 +106,11 @@ const TeesAppForm = ({ onClose }) => {
           {errors.email && <p className="text-red">{errors.email}</p>}
 
           <button
-            className="bg-red text-white h-[40px] w-[250px] md:w-[500px] px-2"
+            className="hover-effect  bg-red text-white h-[40px] w-[250px] md:w-[500px] px-2"
             type="submit"
             disabled={loading}
           >
-            {loading ? "Please Wait..." : "Submit"}
+            <p className="image-wrapper">{loading ? "Please Wait..." : "Submit"}</p>
           </button>
         </form>
       </div>

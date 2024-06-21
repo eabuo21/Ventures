@@ -118,3 +118,50 @@ custom styling for dots
   font-family: cursive;
 }
 
+
+
+
+/* tees modal button */
+
+.hover-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.hover-effect::before,
+.hover-effect::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background: black; /* blue-950 color */
+  transition: all 1s ease-in-out;
+  z-index: 1;
+}
+
+.hover-effect::before {
+  top: 0;
+  left: -50%;
+}
+
+.hover-effect::after {
+  top: 0;
+  right: -50%;
+}
+
+.hover-effect:hover::before {
+  left: 0;
+}
+
+.hover-effect:hover::after {
+  right: 0;
+}
+
+.image-wrapper {
+  position: relative;
+  z-index: 2;
+}
+
+
+
+

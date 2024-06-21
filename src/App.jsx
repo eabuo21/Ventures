@@ -114,7 +114,7 @@ function App() {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setModalOpen(true);
-    }, 3000); // 2 minutes in milliseconds
+    }, 7000); // 7 minutes in milliseconds
 
     return () => {
       clearTimeout(timeout);
